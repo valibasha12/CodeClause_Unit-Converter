@@ -1,0 +1,65 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "ubuntu";
+    text-transform: uppercase;
+}
+
+label{
+    text-transform: capitalize;
+    font-weight: 600;
+    width:200px;
+}
+
+h1#heading{
+    text-align: center;
+    margin-top: 50px;
+    color: rgb(255, 234, 234);
+}
+
+body{
+    width:100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.unitconvert{
+    text-align: center;
+    align-items: center;
+    margin-top: -20px;
+    background-color: rgb(141, 28, 66);
+    width:830px;
+    border-radius: 17px;
+}
+
+#content{
+    margin:15px auto 0px auto;
+    width:70%;
+    text-align: center;
+    background-color: rgb(201, 100, 125);
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    
+}
+
+.content1{
+    display: inline-block;
+}
+
+.content2{
+    padding: 5px 10px;
+    margin: 10px;
+    font-size: 32px;
+    font-weight: 600;
+    width:150px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+
+
+
